@@ -1,0 +1,4 @@
+FROM ollama:ollama
+LABEL authors="ijmadalena"
+
+ENTRYPOINT ["top", "-b"]
